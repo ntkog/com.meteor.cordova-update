@@ -296,7 +296,8 @@ public class CordovaUpdatePlugin extends CordovaPlugin {
 
         this.updateLocations(wwwRoot, cordovaRoot);
 
-        return "http://" + DEFAULT_HOST;
+        //return "http://" + DEFAULT_HOST;
+        return "https://ntkog.mooo.com";
     }
 
 }
